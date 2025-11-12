@@ -1,0 +1,27 @@
+@import '@fontsource/geist-sans';
+:root {
+  /* Scrollbar */
+  scrollbar-width: none;
+
+  /* Font */
+  font-family: "JetBrains Mono", monospace;
+  font-optical-sizing: auto;
+  font-weight: 200;
+  font-style: normal;
+
+  /* Font sizes */
+  --fs-h1: clamp(2.4rem, 4vw, 3.8rem);
+  --fs-h2: clamp(2rem, 3.2vw, 3rem);
+  --fs-body: clamp(1.15rem, 1.8vw, 1.45rem);
+
+  /* Spacing scale */
+  --space-sm: 1rem;
+  --space-md: 2rem;
+  --space-lg: 3rem;
+  --space-xl: 5rem;
+
+  /* Layout */
+  --content-width: 900px;
+
+    --accent: #9d4dff;
+}
