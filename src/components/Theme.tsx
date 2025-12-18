@@ -18,10 +18,9 @@ export const ThemePageContainer = () => {
         transition: { duration: 1, ease: "easeInOut" }    
     });
     }
-  })
+  });
 
   return (
-    <>
-    </>
+    <></>
   )
 }
