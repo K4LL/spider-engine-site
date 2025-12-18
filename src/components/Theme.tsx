@@ -5,7 +5,6 @@ import { useEffect } from "react"
 
 import { usePageStateStore } from "../uiStore"
 
-
 export const ThemePageContainer = () => {
   const controls = useAnimation();
 
@@ -23,7 +22,6 @@ export const ThemePageContainer = () => {
 
   return (
     <>
-      
     </>
   )
 }
