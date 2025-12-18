@@ -1,11 +1,9 @@
-import { animationControls, motion, useAnimation, useInView } from "framer-motion"
-import { useRef, useEffect, useState, useLayoutEffect } from "react"
+import { motion, useAnimation } from "framer-motion"
+import { useRef, useEffect, useState } from "react"
 
 import { AnimatedSection } from "./AnimatedSection";
 import { SectionFade } from "./SectionFade";
 import { usePageStateStore } from "../uiStore"
-
-import { ThemeSection } from "./Theme";
 
 import Logo from "../assets/logo.svg?react";
 
