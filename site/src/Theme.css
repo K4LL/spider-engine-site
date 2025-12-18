@@ -1,0 +1,7 @@
+.pain-panel {
+  position: fixed ;
+  z-index: 99999;
+
+  width: 1920px;
+  height: 1080px;
+}

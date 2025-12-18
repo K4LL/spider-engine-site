@@ -1,17 +1,8 @@
-import { defineConfig } from 'vite'
-import react from '@vitejs/plugin-react-swc'
-import svgr from 'vite-plugin-svgr'
+import { defineConfig } from "vite";
+import react from "@vitejs/plugin-react-swc";
+import svgr from "vite-plugin-svgr";
 
-// https://vite.dev/config/
 export default defineConfig({
-  base: '/spider-engine-site/',
+  base: "/spider-engine-site/",
   plugins: [react(), svgr()],
-  build: {
-    rollupOptions: {
-      input: {
-        main: "index.html",
-        devlog: "devlog.html",
-      },
-    },
-  },
-})
+});

@@ -2,7 +2,9 @@ import './App.css';
 
 import { AnimatedSection } from './components/AnimatedSection';
 
-function Devlog() {
+import { Link } from "react-router-dom"
+
+export function Devlog() {
   return (
     <>
       <section className="section devlog-content">
@@ -19,7 +21,7 @@ function Devlog() {
           </ul>
         </AnimatedSection>
 
-        <a href="https://k4ll.github.io/spider-engine/">Return to Landing Page</a>
+        <Link to="/">Return to Landing Page</Link>
       </section>
     </>
   )

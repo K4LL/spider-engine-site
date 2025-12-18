@@ -1,4 +1,5 @@
 import { AnimatedSection } from "./AnimatedSection"
+import { Link } from "react-router-dom";
 
 export function FooterSection() {
   return (
@@ -10,7 +11,7 @@ export function FooterSection() {
               <a href="https://github.com/K4LL/spider-engine/">Project Repo 🗂️</a>
             </li>
             <li>
-              <a href="https://k4ll.github.io/spider-engine-site/devlog">Devlog Here 📝</a>
+              <Link to="/devlog">Devlog Here 📝</Link>
             </li>
           </ul>
         </AnimatedSection>
