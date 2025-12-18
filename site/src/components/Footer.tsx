@@ -11,7 +11,7 @@ export function FooterSection() {
               <a href="https://github.com/K4LL/spider-engine/">Project Repo 🗂️</a>
             </li>
             <li>
-              <Link to="/devlog">Devlog Here 📝</Link>
+              <Link to="/devlog.html">Devlog Here 📝</Link>
             </li>
           </ul>
         </AnimatedSection>
