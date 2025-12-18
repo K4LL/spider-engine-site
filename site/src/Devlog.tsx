@@ -13,7 +13,7 @@ export function Devlog() {
 
           <ul className="section devlog-content">
             <li>
-              <h2>11/12/2025</h2>
+              <h2>11/12/2025 or 11/12/2025 if you are on US 🦅🦅🦅</h2>
               <p>
                 I just finished the landing page and created the devlog. I need to get back to work on the engine itself.
               </p>
